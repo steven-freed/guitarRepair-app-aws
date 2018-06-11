@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E4EF090CA2FCDB673AED04D /* Pods_guitar_repair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1AB2D51B448472D0772E25 /* Pods_guitar_repair.framework */; };
+		F122C0ED20CC89E8006784E7 /* APIDevorderServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122C0EA20CC89E8006784E7 /* APIDevorderServiceClient.swift */; };
+		F12F9F6A20CB136B004684E8 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = F12F9F6920CB136B004684E8 /* awsconfiguration.json */; };
+		F12F9F6C20CB22BC004684E8 /* PastOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F9F6B20CB22BC004684E8 /* PastOrderTableViewCell.swift */; };
+		F196217F20C6E5480006D880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196217E20C6E5480006D880 /* AppDelegate.swift */; };
+		F196218120C6E5480006D880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196218020C6E5480006D880 /* ViewController.swift */; };
+		F196218420C6E5480006D880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F196218220C6E5480006D880 /* Main.storyboard */; };
+		F196218920C6E54A0006D880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F196218820C6E54A0006D880 /* Assets.xcassets */; };
+		F196218C20C6E54A0006D880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F196218A20C6E54A0006D880 /* LaunchScreen.storyboard */; };
+		F19F60D620C7272400B3FA74 /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19F60D520C7272400B3FA74 /* about.storyboard */; };
+		F19F60D820C728AE00B3FA74 /* order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19F60D720C728AE00B3FA74 /* order.storyboard */; };
+		F19F60DA20C728BC00B3FA74 /* pastOrders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19F60D920C728BC00B3FA74 /* pastOrders.storyboard */; };
+		F19F60DC20C7294700B3FA74 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F60DB20C7294700B3FA74 /* OrderViewController.swift */; };
+		F19F60DE20C7295500B3FA74 /* PastOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F60DD20C7295500B3FA74 /* PastOrdersViewController.swift */; };
+		F19F60E020C72FC300B3FA74 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F60DF20C72FC300B3FA74 /* AboutViewController.swift */; };
+		F1D4D41D20C9D7DD00F489DB /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4D41C20C9D7DD00F489DB /* Orders.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E1AB2D51B448472D0772E25 /* Pods_guitar_repair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guitar_repair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0E6078BB66C29EF3FF1B92 /* Pods-guitar-repair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guitar-repair.debug.xcconfig"; path = "Pods/Target Support Files/Pods-guitar-repair/Pods-guitar-repair.debug.xcconfig"; sourceTree = "<group>"; };
+		BC9CDE78BAC05974478F24BA /* Pods-guitar-repair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guitar-repair.release.xcconfig"; path = "Pods/Target Support Files/Pods-guitar-repair/Pods-guitar-repair.release.xcconfig"; sourceTree = "<group>"; };
+		F122C0EA20CC89E8006784E7 /* APIDevorderServiceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDevorderServiceClient.swift; sourceTree = "<group>"; };
+		F122C0EF20CC89F1006784E7 /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSApiGatewayBridge.h; sourceTree = "<group>"; };
+		F122C0F020CC89F1006784E7 /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		F12F9F6920CB136B004684E8 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		F12F9F6B20CB22BC004684E8 /* PastOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderTableViewCell.swift; sourceTree = "<group>"; };
+		F196217B20C6E5480006D880 /* guitar-repair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guitar-repair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F196217E20C6E5480006D880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F196218020C6E5480006D880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F196218320C6E5480006D880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F196218820C6E54A0006D880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F196218B20C6E54A0006D880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F196218D20C6E54A0006D880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19F60D520C7272400B3FA74 /* about.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
+		F19F60D720C728AE00B3FA74 /* order.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = order.storyboard; sourceTree = "<group>"; };
+		F19F60D920C728BC00B3FA74 /* pastOrders.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = pastOrders.storyboard; sourceTree = "<group>"; };
+		F19F60DB20C7294700B3FA74 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		F19F60DD20C7295500B3FA74 /* PastOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrdersViewController.swift; sourceTree = "<group>"; };
+		F19F60DF20C72FC300B3FA74 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F1D4D41C20C9D7DD00F489DB /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orders.swift; path = "../../../../Downloads/Guitar-Repair-integration-lib-aws-my-sample-app-ios-swift/AmazonAws/Models/NoSQL/Orders.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F196217820C6E5480006D880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4EF090CA2FCDB673AED04D /* Pods_guitar_repair.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7BEFC76082FD8894D6C5F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD0E6078BB66C29EF3FF1B92 /* Pods-guitar-repair.debug.xcconfig */,
+				BC9CDE78BAC05974478F24BA /* Pods-guitar-repair.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70A9D20C05E0F33DA2DF1493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E1AB2D51B448472D0772E25 /* Pods_guitar_repair.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F196217220C6E5480006D880 = {
+			isa = PBXGroup;
+			children = (
+				F196217D20C6E5480006D880 /* guitar-repair */,
+				F196217C20C6E5480006D880 /* Products */,
+				5D7BEFC76082FD8894D6C5F3 /* Pods */,
+				70A9D20C05E0F33DA2DF1493 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F196217C20C6E5480006D880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F196217B20C6E5480006D880 /* guitar-repair.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F196217D20C6E5480006D880 /* guitar-repair */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4D42020C9E13600F489DB /* API */,
+				F1D4D41B20C9D79F00F489DB /* Models */,
+				F196217E20C6E5480006D880 /* AppDelegate.swift */,
+				F12F9F6B20CB22BC004684E8 /* PastOrderTableViewCell.swift */,
+				F196218A20C6E54A0006D880 /* LaunchScreen.storyboard */,
+				F196218020C6E5480006D880 /* ViewController.swift */,
+				F196218220C6E5480006D880 /* Main.storyboard */,
+				F19F60DF20C72FC300B3FA74 /* AboutViewController.swift */,
+				F19F60D520C7272400B3FA74 /* about.storyboard */,
+				F19F60DB20C7294700B3FA74 /* OrderViewController.swift */,
+				F19F60D720C728AE00B3FA74 /* order.storyboard */,
+				F19F60DD20C7295500B3FA74 /* PastOrdersViewController.swift */,
+				F19F60D920C728BC00B3FA74 /* pastOrders.storyboard */,
+				F196218820C6E54A0006D880 /* Assets.xcassets */,
+				F12F9F6920CB136B004684E8 /* awsconfiguration.json */,
+				F196218D20C6E54A0006D880 /* Info.plist */,
+			);
+			path = "guitar-repair";
+			sourceTree = "<group>";
+		};
+		F1D4D41B20C9D79F00F489DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4D41C20C9D7DD00F489DB /* Orders.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1D4D42020C9E13600F489DB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F122C0EA20CC89E8006784E7 /* APIDevorderServiceClient.swift */,
+				F122C0EF20CC89F1006784E7 /* AWSApiGatewayBridge.h */,
+				F122C0F020CC89F1006784E7 /* Bridging_Header.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F196217A20C6E5480006D880 /* guitar-repair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F196219020C6E54A0006D880 /* Build configuration list for PBXNativeTarget "guitar-repair" */;
+			buildPhases = (
+				A1610813A84D023E96B9284F /* [CP] Check Pods Manifest.lock */,
+				F196217720C6E5480006D880 /* Sources */,
+				F196217820C6E5480006D880 /* Frameworks */,
+				F196217920C6E5480006D880 /* Resources */,
+				9BBA5084208058B5BDA86DBE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "guitar-repair";
+			productName = "guitar-repair";
+			productReference = F196217B20C6E5480006D880 /* guitar-repair.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F196217320C6E5480006D880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "steven freed";
+				TargetAttributes = {
+					F196217A20C6E5480006D880 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = F196217620C6E5480006D880 /* Build configuration list for PBXProject "guitar-repair" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F196217220C6E5480006D880;
+			productRefGroup = F196217C20C6E5480006D880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F196217A20C6E5480006D880 /* guitar-repair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F196217920C6E5480006D880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19F60D820C728AE00B3FA74 /* order.storyboard in Resources */,
+				F196218C20C6E54A0006D880 /* LaunchScreen.storyboard in Resources */,
+				F196218920C6E54A0006D880 /* Assets.xcassets in Resources */,
+				F12F9F6A20CB136B004684E8 /* awsconfiguration.json in Resources */,
+				F19F60DA20C728BC00B3FA74 /* pastOrders.storyboard in Resources */,
+				F19F60D620C7272400B3FA74 /* about.storyboard in Resources */,
+				F196218420C6E5480006D880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BBA5084208058B5BDA86DBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-guitar-repair/Pods-guitar-repair-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-guitar-repair/Pods-guitar-repair-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1610813A84D023E96B9284F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-guitar-repair-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F196217720C6E5480006D880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19F60E020C72FC300B3FA74 /* AboutViewController.swift in Sources */,
+				F1D4D41D20C9D7DD00F489DB /* Orders.swift in Sources */,
+				F19F60DE20C7295500B3FA74 /* PastOrdersViewController.swift in Sources */,
+				F122C0ED20CC89E8006784E7 /* APIDevorderServiceClient.swift in Sources */,
+				F196218120C6E5480006D880 /* ViewController.swift in Sources */,
+				F196217F20C6E5480006D880 /* AppDelegate.swift in Sources */,
+				F12F9F6C20CB22BC004684E8 /* PastOrderTableViewCell.swift in Sources */,
+				F19F60DC20C7294700B3FA74 /* OrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F196218220C6E5480006D880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F196218320C6E5480006D880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F196218A20C6E54A0006D880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F196218B20C6E54A0006D880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F196218E20C6E54A0006D880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F196218F20C6E54A0006D880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F196219120C6E54A0006D880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0E6078BB66C29EF3FF1B92 /* Pods-guitar-repair.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A7L4T4PPZ;
+				INFOPLIST_FILE = "guitar-repair/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevef..guitar-repair";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "guitar-repair/API/Bridging_Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F196219220C6E54A0006D880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9CDE78BAC05974478F24BA /* Pods-guitar-repair.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A7L4T4PPZ;
+				INFOPLIST_FILE = "guitar-repair/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevef..guitar-repair";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "guitar-repair/API/Bridging_Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F196217620C6E5480006D880 /* Build configuration list for PBXProject "guitar-repair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F196218E20C6E54A0006D880 /* Debug */,
+				F196218F20C6E54A0006D880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F196219020C6E54A0006D880 /* Build configuration list for PBXNativeTarget "guitar-repair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F196219120C6E54A0006D880 /* Debug */,
+				F196219220C6E54A0006D880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F196217320C6E5480006D880 /* Project object */;
+}

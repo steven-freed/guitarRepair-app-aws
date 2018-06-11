@@ -1,0 +1,21 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "lambda",
+    "aws",
+    "api-gateway"
+  ],
+  "author": "Steven Freed",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.250.1",
+    "body-parser": "^1.18.3"
+  }
+}
