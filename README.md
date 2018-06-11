@@ -7,17 +7,18 @@ This app is a tutorial on how to connect a iOS Swift mobile app to Amazon Web Se
     1. Start iOS app with Xcode and start an app in AWS Mobile Hub console
     2. Adjust the settings to your requirements 
     I use Dynamo with the following Schema
-    ![Alt text](/images/db.png?raw=true "Dynamo Schema")
+![Alt text](/images/db.png?raw=true "Dynamo Schema")
     
     3. Download the awsconfiguration.json (Each time you make changes to AWS) 
     4. Modify your plist file in Xcode with the following
-    ![Alt text](/images/plist.png?raw=true "Plist Configuration")
+![Alt text](/images/plist.png?raw=true "Plist Configuration")
     
     5. Add API-Gateway endpoints
-    ![Alt text](/images/paths.png?raw=true "API-Gateway")
+![Alt text](/images/paths.png?raw=true "API-Gateway")
+    
     6. Use IAM Authentication
        For this to work you need to go to IAM roles and use the following permission for the role associated with your apps Cognito federated identity pool authenticated user
-    ![Alt text](/images/fedId.png?raw=true "Federated Identity Auth Role")
+![Alt text](/images/fedId.png?raw=true "Federated Identity Auth Role")
     
     Add inline policy for role, switch to JSON editing and copy and paste the following
     {
@@ -33,13 +34,13 @@ This app is a tutorial on how to connect a iOS Swift mobile app to Amazon Web Se
     ]
     }
     
-    ![Alt text](/images/requestType.png?raw=true "API-Gateway Auth")
+![Alt text](/images/requestType.png?raw=true "API-Gateway Auth")
     
     7. Go to API-Gateway and set the Integration Request to Lambda Proxy (this lets us shape the response however we want, with a non-proxy lambda we use models for our data in the AWS console. Proxy allows for easy manipulation of headers, status codes, and body of our request so if the data were passing changes the api still works.)
       Lambda Proxy = Backend code controls response and request
       Lambda = aws console json models control response and request
       
-      ![Alt text](/images/proxy.png?raw=true "API-Gateway Auth")
+![Alt text](/images/proxy.png?raw=true "API-Gateway Auth")
 ...
 
 ## Outline for Backend of App
@@ -55,7 +56,7 @@ This app is a tutorial on how to connect a iOS Swift mobile app to Amazon Web Se
     Install the AWS SDK for doing CRUD operations on DynamoDB
     ~$ npm install aws-sdk
     6. Now to link your code with AWS Lambda and AWS API-Gateway, go to AWS console and click your name, then security credentials
-    ![Alt text](/images/security.png?raw=true "Security Creds")
+![Alt text](/images/security.png?raw=true "Security Creds")
 
     click 'create new access key', download the key file and store somewhere safe.
     
