@@ -6,7 +6,7 @@ This app is a tutorial on how to connect a iOS Swift mobile app to Amazon Web Se
 
     1. Start iOS app with Xcode and start an app in AWS Mobile Hub console
     
-    2. Adjust the settings to your requirements 
+    2. Adjust the settings to your requirements, create a user pool under 'User Sign-In' for authentication, well need it later to control access to our API
     I use Dynamo with the following Schema
 ![Alt text](/images/db.png?raw=true "Dynamo Schema")
     
@@ -30,7 +30,7 @@ This app is a tutorial on how to connect a iOS Swift mobile app to Amazon Web Se
     "Action": [
     "execute-api:Invoke"
     ],
-    "Resource": "arn:aws:execute-api:us-east-1:793962556423:dddf9grlp2/*/*/*",
+    "Resource": "arn:aws:execute-api:us-east-1:77462845423:abb58472n/*/*/*",
     "Effect": "Allow"
     }
     ]
