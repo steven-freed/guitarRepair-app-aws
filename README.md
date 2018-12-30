@@ -62,6 +62,7 @@ Add inline policy for role, switch to JSON editing and copy and paste the follow
 | *API-Gateway Auth* |
 
 8. Go to API-Gateway, click 'actions', click 'deploy api', then download the SDK for your API. This will let you more easily make requests from the client (your iOS app)
+
 | ![Alt text](/images/sdk.png?raw=true) |
 |:--:|
 | *Pre-Generated SDK for your API* |
@@ -89,6 +90,7 @@ $ npm install aws-sdk
 ``` 
 
 6. Now to link your code with AWS Lambda and AWS API-Gateway, go to AWS console and click your name, then security credentials
+
 | ![Alt text](/images/security.png?raw=true) |
 |:--:|
 | *Security Creds* |
