@@ -97,8 +97,8 @@ $ npm install aws-sdk
 
 click 'create new access key', download the key file and store somewhere safe.
     
-NOTE: 
-    QUICK START - This way gives anyone with your keys full access to your AWS account
+NOTE:<br />
+    QUICK START - This way gives anyone with your keys full access to your AWS account<br />
     BETTER WAY - Create an IAM user with limited permissions and use their keys
     
 7. Go to terminal then directory of your project, type
