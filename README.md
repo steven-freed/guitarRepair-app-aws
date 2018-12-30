@@ -15,17 +15,20 @@ I use Dynamo with the following Schema...
 3. Download the awsconfiguration.json (Each time you make changes to AWS) 
     
 4. Modify your plist file in Xcode with the following
+
 | ![Alt text](/images/plist.png?raw=true) |
 |:--:|
 | *Plist Configuration* |
     
 5. Add API-Gateway endpoints
+
 | ![Alt text](/images/paths.png?raw=true) |
 |:--:|
 | *API-Gateway* |
     
 6. Use IAM Authentication
 For this to work you need to go to IAM roles and use the following permission for the role associated with your apps Cognito federated identity pool authenticated user
+
 | ![Alt text](/images/fedId.png?raw=true) |
 |:--:|
 | *Federated Identity Auth Role* |
