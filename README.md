@@ -1,5 +1,5 @@
 # Guitar Repair iOS App
-This app is a tutorial on how to connect a iOS Swift mobile app to Amazon Web Service. It goes through creating repair orders and reading guitar repair orders. The backend of the app uses AWS Lambda and API-Gateway to create and read repairs from DynamoDB.
+This app is a tutorial on how to connect an iOS Swift mobile app to Amazon Web Service. It goes through creating repair orders and reading guitar repair orders. The backend of the app uses AWS Lambda and API-Gateway to create and read repairs from DynamoDB.
 
 ## Outline for Architecture of App
 
