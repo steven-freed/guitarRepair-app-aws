@@ -1,6 +1,0 @@
-framework module Pods_guitar_repair {
-  umbrella header "Pods-guitar-repair-umbrella.h"
-
-  export *
-  module * { export * }
-}
